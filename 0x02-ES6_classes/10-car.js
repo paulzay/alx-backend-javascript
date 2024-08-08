@@ -3,7 +3,6 @@ export default class Car {
     this.motor = motor;
     this.brand = brand;
     this.color = color;
-
   }
 
   get motor() {
