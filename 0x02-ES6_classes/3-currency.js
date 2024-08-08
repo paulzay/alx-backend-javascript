@@ -4,19 +4,19 @@ export default class Currency {
     this._name = name;
   }
 
-  getName() {
+  get name() {
     return this._name;
   }
 
-  setName(newName) {
+  set name(newName) {
     this._name = newName;
   }
 
-  getCode() {
+  get code() {
     return this._code;
   }
 
-  setCode(newCode) {
+  set code(newCode) {
     this._code = newCode;
   }
 
